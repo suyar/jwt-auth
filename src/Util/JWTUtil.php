@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Phper666\JWTAuth\Util;
+namespace Trrtly\JWTAuth\Util;
 use Lcobucci\JWT\ClaimsFormatter;
 use Lcobucci\JWT\Encoding\JoseEncoder;
 use Lcobucci\JWT\Token\Builder;

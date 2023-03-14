@@ -7,7 +7,7 @@ declare(strict_types=1);
  * Time: 1:59 下午
  */
 
-namespace Phper666\JWTAuth\Util;
+namespace Trrtly\JWTAuth\Util;
 use Carbon\Carbon;
 
 class TimeUtil

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Phper666\JWTAuth;
+namespace Trrtly\JWTAuth;
 
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\HttpServer\Contract\RequestInterface;
@@ -23,11 +23,11 @@ use Lcobucci\JWT\Validation\Constraint\RelatedTo;
 use Lcobucci\JWT\Validation\Constraint\SignedWith;
 use Lcobucci\JWT\Validation\Constraint\StrictValidAt;
 use Lcobucci\JWT\Encoding\ChainedFormatter;
-use Phper666\JWTAuth\Constant\JWTConstant;
-use Phper666\JWTAuth\Exception\JWTException;
-use Phper666\JWTAuth\Exception\TokenValidException;
-use Phper666\JWTAuth\Util\JWTUtil;
-use Phper666\JWTAuth\Util\TimeUtil;
+use Trrtly\JWTAuth\Constant\JWTConstant;
+use Trrtly\JWTAuth\Exception\JWTException;
+use Trrtly\JWTAuth\Exception\TokenValidException;
+use Trrtly\JWTAuth\Util\JWTUtil;
+use Trrtly\JWTAuth\Util\TimeUtil;
 use Psr\SimpleCache\CacheInterface;
 use ReflectionClass;
 

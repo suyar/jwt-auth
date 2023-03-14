@@ -7,7 +7,7 @@ declare(strict_types=1);
  * Time: 10:07 下午
  */
 
-namespace Phper666\JWTAuth;
+namespace Trrtly\JWTAuth;
 
 use Lcobucci\JWT\Token;
 use Lcobucci\JWT\Token\Plain;

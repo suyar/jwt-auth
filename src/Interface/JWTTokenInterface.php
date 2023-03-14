@@ -6,13 +6,13 @@ declare(strict_types=1);
  * Date: 2021/12/1
  * Time: 1:34 下午
  */
-namespace Phper666\JWTAuth\Interface;
+namespace Trrtly\JWTAuth\Interface;
 
 use Lcobucci\JWT\Token\Plain;
 
 /**
  * Interface JWTTokenInterface
- * @package Phper666\JWTAuth
+ * @package Trrtly\JWTAuth
  */
 interface JWTTokenInterface
 {

@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Phper666\JWTAuth\Command;
+namespace Trrtly\JWTAuth\Command;
 
 use Hyperf\Command\Annotation\Command;
 use Hyperf\Command\Command as HyperfCommand;
@@ -15,9 +15,9 @@ class JWTCommand extends HyperfCommand
     /**
      * 执行的命令行
      *
-     * @var string
+     * @var string|null
      */
-    protected $name = 'jwt:publish';
+    protected ?string $name = 'jwt:publish';
 
     public function handle()
     {

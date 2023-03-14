@@ -5,22 +5,22 @@
  * Date: 2019-08-01
  * Time: 22:32
  */
-namespace Phper666\JWTAuth\Middleware;
+namespace Trrtly\JWTAuth\Middleware;
 
 use Hyperf\HttpServer\Contract\ResponseInterface as HttpResponse;
-use Phper666\JWTAuth\Exception\JWTException;
-use Phper666\JWTAuth\Util\JWTUtil;
+use Trrtly\JWTAuth\Exception\JWTException;
+use Trrtly\JWTAuth\Util\JWTUtil;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Phper666\JWTAuth\JWT;
-use Phper666\JWTAuth\Exception\TokenValidException;
+use Trrtly\JWTAuth\JWT;
+use Trrtly\JWTAuth\Exception\TokenValidException;
 
 /**
  * jwt token 校验的中间件，只会jwt是否正常，不会区分场景校验
  * Class JWTAuthMiddleware
- * @package Phper666\JWTAuth\Middleware
+ * @package Trrtly\JWTAuth\Middleware
  */
 class JWTAuthMiddleware implements MiddlewareInterface
 {

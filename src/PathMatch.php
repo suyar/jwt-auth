@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Phper666\JWTAuth;
+namespace Trrtly\JWTAuth;
 
 use FastRoute\RouteParser\Std;
 

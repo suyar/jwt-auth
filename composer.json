@@ -1,5 +1,5 @@
 {
-    "name": "phper666/jwt-auth",
+    "name": "trrtly/jwt-auth",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -17,12 +17,12 @@
     "description": "jwt-auth Component",
     "autoload": {
         "psr-4": {
-            "Phper666\\JWTAuth\\": "src/"
+            "Trrtly\\JWTAuth\\": "src/"
         }
     },
     "autoload-dev": {},
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.0",
         "ext-swoole": ">=4.4",
         "lcobucci/jwt": "4.1.5",
         "nesbot/carbon": "^1.0 || ^2.0"

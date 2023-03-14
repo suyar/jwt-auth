@@ -7,7 +7,7 @@ declare(strict_types=1);
  * Time: 10:32 下午
  */
 
-namespace Phper666\JWTAuth\Constant;
+namespace Trrtly\JWTAuth\Constant;
 
 interface JWTConstant
 {
