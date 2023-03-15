@@ -40,7 +40,7 @@
     "scripts": {},
     "extra": {
         "hyperf": {
-            "config": "Phper666\\JWTAuth\\ConfigProvider"
+            "config": "Trrtly\\JWTAuth\\ConfigProvider"
         }
     }
 }
