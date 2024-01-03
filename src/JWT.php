@@ -31,6 +31,8 @@ use Trrtly\JWTAuth\Util\TimeUtil;
 use Psr\SimpleCache\CacheInterface;
 use ReflectionClass;
 
+use function Hyperf\Support\make;
+
 /**
  * Created by PhpStorm.
  * User: liyuzhao

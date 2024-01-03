@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+use function Hyperf\Support\env;
+
 return [
     /**
      * 不需要检查的路由，如果使用jwt提供的默认中间件，可以对某些不用做检验的路由进行配置，例如登录等

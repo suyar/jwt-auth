@@ -29,10 +29,11 @@
     },
     "require-dev": {},
     "suggest": {
-        "hyperf/cache": "required hyperf/cache ~3.0.0",
-        "hyperf/command": "required hyperf/command ~3.0.0",
-        "hyperf/config": "required hyperf/config ~3.0.0",
-        "hyperf/di": "required hyperf/di ~3.0.0"
+        "hyperf/cache": "required hyperf/cache ~3.1.0",
+        "hyperf/command": "required hyperf/command ~3.1.0",
+        "hyperf/config": "required hyperf/config ~3.1.0",
+        "hyperf/di": "required hyperf/di ~3.1.0",
+        "hyperf/support": "required hyperf/support ~3.1.0"
     },
     "config": {
         "sort-packages": true
